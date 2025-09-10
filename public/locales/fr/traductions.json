@@ -1,0 +1,182 @@
+{
+    "common": {
+        "slogan": "Depuis toujours, bâtir l’avenir",
+        "CTA": "Obtenir un devis",
+        "sousTexteCTA": "Besoin d’une intervention ?"
+    },
+    "footer": {
+        "copyright": "© Copyright 2025 Sempere & Fils",
+        "dev": "Développé par Quentin MARC",
+        "expertises": "Travaux Publics, Désamiantage, Démolition."
+    },
+    "menu": {
+        "Accueil": "Accueil",
+        "TravauxPublics": "Travaux Publics",
+        "Desamiantage": "Désamiantage",
+        "Demolition": "Démolition",
+        "Contact": "Nous contacter"
+    },
+    "homehero": {
+        "subtitle": "Sempéré et fils, votre partenaire de confiance depuis plus de 60 ans en matière de Travaux Publics, Désamiantage et Démolition."
+    },
+    "bandeauCredibilite": {
+        "texte": "Nous sommes fiers d’adhérer aux fédérations et aux certifications du BTP."
+    },
+    "presentationGenerale": {
+        "prestations": "Nos prestations",
+        "texte1": "Nous intervenons pour vos travaux de terrassements, de VRD, d'aménagements paysagers, d'assainissement, d'ouvrages hydrauliques, de démolition.",
+        "texte2": "Notre force : des <bold>outils modernes</bold> et un <bold>encadrement rigoureux</bold> pour garantir un service à la hauteur de vos exigences.",
+        "texte3": "<bold>Certifiée Qualibat depuis 13 ans</bold>, Sempere & fils vous offre l’assurance d’interventions sûres, conformes et reconnues par les plus hautes exigences du secteur."
+    },
+    "secteursIntervention": {
+        "titre": "Nos secteurs d’intervention",
+        "texte1": "Basée à Pia (banlieue Perpignan), notre équipe de 25 professionnels du BTP intervient dans tous les départements du Grand Sud :",
+        "departements": [
+            "Pyrénées Orientales (66)",
+            "Aude (11)",
+            "Hérault (34)",
+            "Gard (30)",
+            "Tarn (81)",
+            "Ariège (09)",
+            "Haute Garonne (31)"
+        ]
+    },
+    "exemplesChnatiers": {
+        "titre": "Quelques chantiers"
+    },
+    "heroTP": {
+        "titre": "Travaux Publics",
+        "texte": "Sempere & Fils accompagne les collectivités, entreprises et particuliers dans la réalisation de leurs projets de Travaux Publics."
+    },
+    "heroDesamiantage": {
+        "titre": "Désamiantage",
+        "texte": "Sempere & Fils est certifiée Qualibat pour le traitement sécurisé de l’amiante grâce à des équipes qualifiées et du matériel moderne."
+    },
+    "heroDemolition": {
+        "titre": "Démolition",
+        "texte": "Sempere & Fils prend en charge tous types de démolitions, du bâtiment industriel aux ouvrages publics, dans le respect des normes de sécurité et environnementales."
+    },
+    "heroContact": {
+        "titre": "Contactez-nous",
+        "texte": "Les équipes Sempere & Fils sont à votre disposition pour toute demande de devis ou d’informations.",
+        "warning": "Merci de ne pas utiliser ces coordonnées à des fins de prospection."
+    },
+    "BandeauStats": {
+        "TP": {
+            "m1": "+60",
+            "m2": "+200",
+            "m3": "+50 Mn",
+            "l1": "ans d’expérience",
+            "l2": "chantiers réalisés",
+            "l3": "d’€ réalisés en TP"
+        },
+        "Desamiantage": {
+            "m1": "+20",
+            "m2": "+50",
+            "m3": "+10 Mn",
+            "l1": "ans d’expérience",
+            "l2": "chantiers réalisés",
+            "l3": "d’€ réalisés en Désamiatnage"
+        },
+        "Demolition": {
+            "m1": "+30",
+            "m2": "+100",
+            "m3": "+15 Mn",
+            "l1": "ans d’expérience",
+            "l2": "chantiers réalisés",
+            "l3": "d’€ réalisés en Désamiatnage"
+        }
+    },
+    "domainesIntervention": {
+        "titre": "Nos domaines d’intervention",
+        "interventionsTP": [
+            {
+                "titre": "Voirie et réseaux divers (VRD)",
+                "texte": "Création et entretien de routes, trottoirs, parkings, réseaux d’assainissement et d’eau potable."
+            },
+            {
+                "titre": "Aménagement de terrains",
+                "texte": "Préparation de plateformes, nivellement et stabilisation des sols."
+            },
+            {
+                "titre": "Infrastructures urbaines",
+                "texte": "Aménagement d’espaces publics, places, pistes cyclables et zones piétonnes."
+            },
+            {
+                "titre": "Fondations et génie civil",
+                "texte": "Construction de structures porteuses et d’ouvrages durables."
+            },
+            {
+                "titre": "Traitement et substitution de sols",
+                "texte": "Amélioration, stabilisation ou remplacement des sols."
+            },
+            {
+                "titre": "Terrassement rocheux et enrochement",
+                "texte": "Adaptation du terrain, soutènement et protection des talus ou berges."
+            },
+            {
+                "titre": "Maçonnerie et ornement",
+                "texte": "Réalisation de murs, bordures et aménagements décoratifs."
+            },
+            {
+                "titre": "Dalage et revêtements extérieurs",
+                "texte": "Mise en œuvre de surfaces résistantes pour parkings, zones piétonnes ou industrielles."
+            },
+            {
+                "titre": "Réseaux humides et assainissement",
+                "texte": "Pose et rénovation des conduites d’eaux pluviales, usées et potables."
+            },
+            {
+                "titre": "Ouvrages hydrauliques",
+                "texte": "Création et entretien d’installations destinées à la maîtrise et la distribution de l’eau."
+            }
+        ],
+        "interventionsDesamiantage": [
+            {
+                "titre": "Désamiantage",
+                "texte": "Identification, retrait et confinement de l’amiante dans les bâtiments (méthodologie certifiée Qualibat)."
+            },
+            {
+                "titre": "Déplombage",
+                "texte": "Retrait sécurisé des revêtements et installations contenant du plomb."
+            },
+            {
+                "titre": "Dépollution des sols",
+                "texte": "Retrait et traitement des terres contaminées pour préparer le site à de nouveaux usages."
+            },
+            {
+                "titre": "Autre ?",
+                "texte": "Avons-nous une dernière prestation a présenter ici ?"
+            }
+        ],
+        "interventionsDemolition": [
+            {
+                "titre": "Démolition",
+                "texte": "Travaux de démolition maîtrisés pour tous types de bâtiments et d’ouvrages, dans le respect des normes de sécurité."
+            },
+            {
+                "titre": "Déconstruction",
+                "texte": "Démontage sélectif et méthodique des structures afin de favoriser la valorisation et le recyclage des matériaux."
+            },
+            {
+                "titre": "Démantèlement",
+                "texte": "Intervention ciblée pour le retrait progressif d’installations industrielles, charpentes ou ouvrages spécifiques."
+            },
+            {
+                "titre": "Abattage & Essouchage",
+                "texte": "Travaux d’abattage d'arbres' et d’essouchage pour préparer le terrain à de nouveaux aménagements."
+            }
+        ]
+    },
+    "coordonnees": {
+        "titre": "Coordonnées",
+        "texte1": "Sempere & Fils est ouvert du lundi au vendredi sur les horaires suivants : ",
+        "puces": {
+            "matin": "matin : 8h - 12h",
+            "aprem": "après-midi : 14h - 18h"
+        },
+        "telephone": "Téléphone",
+        "email": "Email",
+        "adresse": "Adresse"
+    }
+}

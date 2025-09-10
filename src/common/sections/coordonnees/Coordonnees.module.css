@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--bodyTight);
+    margin: calc(2 * var(--xlMargin)) auto;
+}
+
+.colonneTexte {
+    flex: 2;
+    margin-right: var(--xlMargin);
+}
+
+.colonneTexte > h2 {
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.colonneTexte > p {
+    line-height: 1.5em;
+}
+
+.puces {
+    margin-bottom: var(--lMargin);
+    line-height: 2em;
+}
+
+.catContact {
+    display: flex;
+    align-items: center;
+    margin-top: var(--mMargin);
+}
+
+.iconContainer {
+    width: 55px;
+    height: 55px;
+    background-color: var(--bleu);
+    border-radius: var(--sRadius);
+    margin-right: var(--mMargin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textesContact {
+    flex: 1;
+}
+
+.titreContact {
+    font-weight: bold;
+    margin-bottom: var(--sMargin);
+}
+
+.carte {
+    flex: 3;
+    margin-left: var(--xlMargin);
+    height: 600px;
+}

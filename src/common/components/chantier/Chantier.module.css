@@ -1,0 +1,27 @@
+.chantier {
+    margin: var(--lMargin);
+}
+
+.image {
+    width: 270px;
+    height: 230px;
+    background-color: #ddd;
+    border-top-left-radius: var(--lRadius);
+}
+
+.meta {
+    background-color: #f8f8f8;
+    padding: var(--sMargin) var(--mMargin);
+    line-height: 1.5em;
+    border-bottom-right-radius: var(--lRadius);
+}
+
+.nom {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sublabel {
+    font-size: 16px;
+    font-style: italic;
+}

@@ -1,0 +1,17 @@
+.exemplesChantiers {
+    width: var(--bodyTight);
+    margin: calc(2 * var(--xlMargin)) auto;
+}
+
+.exemplesChantiers > h2 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.containerChantiers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

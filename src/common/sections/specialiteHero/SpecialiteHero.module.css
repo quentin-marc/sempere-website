@@ -1,0 +1,59 @@
+.hero {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(
+        to bottom,
+        #b1cdd9 0%,
+        #e8e9e5 50%,
+        #e6e6e6 100%
+    );
+    padding-top: calc(3 * var(--xlMargin));
+    padding-bottom: calc(2 * var(--xlMargin));
+}
+
+.corpsHero {
+    display: flex;
+    align-items: center;
+    width: var(--bodyTight);
+    margin: auto;
+}
+
+.image {
+    width: 375px;
+    height: 500px;
+    border-top-left-radius: var(--xlRadius);
+    border-bottom-right-radius: var(--xlRadius);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    width: var(--body);
+    margin: auto;
+    flex: 1;
+}
+
+.overlay h1 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    width: 500px;
+    margin-top: 0;
+}
+
+.overlay p {
+    font-size: 20px;
+    width: 500px;
+    line-height: 2em;
+}
+
+.button {
+    margin-top: var(--xlMargin);
+}
+
+.warning {
+    font-style: italic;
+    margin-top: var(--xlMargin);
+    font-size: 14px;
+}

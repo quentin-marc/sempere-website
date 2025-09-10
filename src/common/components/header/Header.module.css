@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar {
+    max-width: var(--body);
+    margin: 0 auto;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoContainer a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: var(--lMargin);
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: var(--noir);
+}

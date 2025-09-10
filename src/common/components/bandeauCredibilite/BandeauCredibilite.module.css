@@ -1,0 +1,30 @@
+.bandeauContainer {
+    width: 100%;
+    background-color: var(--bleu);
+    padding: var(--mMargin);
+}
+
+.bandeau {
+    width: var(--bodyTight);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.texte {
+    width: 300px;
+    line-height: 1.25em;
+    font-size: 15px;
+}
+
+.logos {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logos > img {
+    height: 50px;
+    margin: 0 var(--lMargin);
+}

@@ -1,0 +1,47 @@
+.domaine {
+    background-color: #f2f2f2;
+    padding: var(--mMargin);
+    border-top-left-radius: var(--lRadius);
+    border-bottom-right-radius: var(--lRadius);
+    cursor: pointer;
+    margin: var(--mMargin);
+}
+
+.headerDomaine {
+    display: flex;
+    align-items: center;
+    margin-top: var(--xsMargin);
+}
+
+.titre {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.texte {
+    font-size: 16px;
+    margin: 0 var(--mMargin);
+    line-height: 1.5em;
+
+    /* Masquer par défaut */
+    max-height: 0;
+    overflow: hidden;
+    transition:
+        max-height 0.25s,
+        margin 0.25s,
+        opacity 0.25s;
+    opacity: 0;
+}
+
+.open .texte {
+    max-height: 500px; /* assez grand pour contenir ton texte */
+    opacity: 1;
+    margin: var(--sMargin) var(--mMargin);
+}
+
+.icon {
+    color: #5087da;
+    width: 40px;
+    height: 40px;
+    margin-right: var(--mMargin);
+}

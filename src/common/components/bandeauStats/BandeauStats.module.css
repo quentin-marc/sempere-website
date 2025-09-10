@@ -1,0 +1,39 @@
+.bandeau {
+    width: 100%;
+    background-color: var(--bleu);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--lMargin);
+}
+
+.bodyBandeau {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: var(--body);
+}
+
+.texte {
+    margin-right: var(--xlMargin);
+    margin-left: -50px;
+    font-size: 22px;
+}
+
+.metrique {
+    text-align: center;
+}
+
+.indicateur {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.label {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.5em;
+}

@@ -1,0 +1,62 @@
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--bodyTight);
+    margin: calc(2 * var(--xlMargin)) auto;
+}
+
+.colonneTexte {
+    flex: 2;
+    margin-right: var(--xlMargin);
+}
+
+.colonneTexte > h2 {
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.colonneTexte > p {
+    line-height: 1.5em;
+}
+
+.colonnePhotos {
+    flex: 3;
+    margin-left: var(--xlMargin);
+}
+
+.ligne {
+    width: 100%;
+    display: flex;
+}
+
+.photo {
+    background-color: #dddddd;
+    height: 220px;
+}
+
+.ligne:nth-child(1) > .photo:nth-child(1) {
+    border-top-left-radius: var(--lRadius);
+    flex: 2;
+}
+
+.ligne:nth-child(1) > .photo:nth-child(2) {
+    flex: 1;
+    margin-left: var(--mMargin);
+}
+
+.ligne:nth-child(2) > .photo {
+    margin: var(--mMargin) 0;
+    width: 100%;
+}
+
+.ligne:nth-child(3) > .photo:nth-child(1) {
+    flex: 1;
+    margin-right: var(--mMargin);
+}
+
+.ligne:nth-child(3) > .photo:nth-child(2) {
+    flex: 2;
+    border-bottom-right-radius: var(--lRadius);
+}

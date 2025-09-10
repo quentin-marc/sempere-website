@@ -1,0 +1,23 @@
+.containerDomaines {
+    width: var(--bodyTight);
+    margin: calc(2 * var(--xlMargin)) auto;
+}
+
+.domaines {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--xlMargin);
+}
+
+.colonne {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerDomaines > h2 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}

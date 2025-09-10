@@ -1,0 +1,40 @@
+.secteurs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: calc(2 * var(--xlMargin)) auto;
+}
+
+.colonneCarte {
+    flex: 3;
+    margin-right: var(--xlMargin);
+}
+
+.carte {
+    width: 500px;
+    display: block;
+}
+
+.carte > * {
+    background-color: #dddddd;
+}
+
+.colonneTextes {
+    flex: 3;
+    margin-left: var(--xlMargin);
+}
+
+.colonneTextes > h2 {
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.colonneTextes > p {
+    line-height: 1.5em;
+}
+
+.colonneTextes > ul {
+    line-height: 1.5em;
+}
