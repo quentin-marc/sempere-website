@@ -1,5 +1,5 @@
 import HomeHero from "../common/sections/homeHero/HomeHero";
-import BandeauCredibilite from "../common/components/bandeauCredibilite/bandeauCredibilite";
+import BandeauCredibilite from "../common/components/bandeauCredibilite/BandeauCredibilite";
 import BandeauCTA from "../common/components/bandeauCTA/BandeauCTA";
 import PresentationGenerale from "../common/sections/presentationGenerale/PresentationGenerale";
 import SecteursIntervention from "../common/sections/secteursIntervention/SecteursIntervention";

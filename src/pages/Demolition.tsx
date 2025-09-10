@@ -1,6 +1,6 @@
 import SpecialiteHero from "../common/sections/specialiteHero/SpecialiteHero";
 import BandeauCTA from "../common/components/bandeauCTA/BandeauCTA";
-import BandeauStats from "../common/components/BandeauStats/BandeauStats";
+import BandeauStats from "../common/components/bandeauStats/BandeauStats";
 import DomainesIntervention from "../common/sections/domainesIntervention/DomainesIntervention";
 import ExemplesChantiers from "../common/sections/exemplesChantiers/ExemplesChantiers";
 
