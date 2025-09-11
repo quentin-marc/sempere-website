@@ -36,3 +36,42 @@
     position: absolute;
     top: 520px;
 }
+
+@media (max-width: 1200px) {
+    .overlay {
+        width: 100%;
+        margin: 0 var(--xlMargin);
+    }
+
+    .overlay p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .overlay h1 {
+        font-size: 36px;
+        width: 400px;
+    }
+
+    .overlay p {
+        top: 300px;
+    }
+}
+
+@media (max-width: 550px) {
+    .overlay {
+        margin: 0 var(--lMargin);
+    }
+
+    .overlay h1 {
+        font-size: 28px;
+        width: 80%;
+        top: 150px;
+    }
+
+    .overlay p {
+        top: 280px;
+        font-size: 16px;
+    }
+}

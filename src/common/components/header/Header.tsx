@@ -42,6 +42,7 @@ export default function Header() {
 
                 {/* Bouton à droite */}
                 <button
+                    className={styles.button}
                     onClick={() => {
                         navigate("/contact");
                         window.scrollTo(0, 0);

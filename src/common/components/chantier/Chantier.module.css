@@ -1,12 +1,14 @@
 .chantier {
     margin: var(--lMargin);
+    width: 270px;
 }
 
 .image {
-    width: 270px;
+    width: 100%;
     height: 230px;
-    background-color: #ddd;
     border-top-left-radius: var(--lRadius);
+    object-fit: cover;
+    object-position: center;
 }
 
 .meta {
@@ -14,6 +16,7 @@
     padding: var(--sMargin) var(--mMargin);
     line-height: 1.5em;
     border-bottom-right-radius: var(--lRadius);
+    width: calc(100% - 2 * var(--mMargin));
 }
 
 .nom {
@@ -24,4 +27,80 @@
 .sublabel {
     font-size: 16px;
     font-style: italic;
+}
+
+@media (max-width: 1150px) {
+    .chantier {
+        width: 220px;
+        margin: var(--mMargin);
+    }
+
+    .nom {
+        font-size: 16px;
+    }
+
+    .sublabel {
+        font-size: 14px;
+    }
+
+    .image {
+        height: 200px;
+    }
+}
+
+@media (max-width: 950px) {
+    .chantier {
+        width: 270px;
+        margin: var(--lMargin);
+    }
+
+    .nom {
+        font-size: 18px;
+    }
+
+    .sublabel {
+        font-size: 15px;
+    }
+
+    .image {
+        height: 230px;
+    }
+}
+
+@media (max-width: 750px) {
+    .chantier {
+        width: 220px;
+        margin: var(--mMargin);
+    }
+
+    .nom {
+        font-size: 16px;
+    }
+
+    .sublabel {
+        font-size: 14px;
+    }
+
+    .image {
+        height: 200px;
+    }
+}
+
+@media (max-width: 550px) {
+    .chantier {
+        width: 270px;
+        margin: var(--mMargin);
+    }
+
+    .nom {
+        font-size: 16px;
+    }
+
+    .sublabel {
+        font-size: 14px;
+    }
+
+    .image {
+        height: 200px;
+    }
 }

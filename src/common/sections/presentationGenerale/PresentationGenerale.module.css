@@ -32,18 +32,19 @@
 }
 
 .photo {
-    background-color: #dddddd;
     height: 220px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .ligne:nth-child(1) > .photo:nth-child(1) {
     border-top-left-radius: var(--lRadius);
-    flex: 2;
+    width: calc(66.5% - var(--mMargin) / 2);
+    margin-right: var(--mMargin);
 }
 
 .ligne:nth-child(1) > .photo:nth-child(2) {
-    flex: 1;
-    margin-left: var(--mMargin);
+    width: calc(33.5% - var(--mMargin) / 2);
 }
 
 .ligne:nth-child(2) > .photo {
@@ -52,11 +53,54 @@
 }
 
 .ligne:nth-child(3) > .photo:nth-child(1) {
-    flex: 1;
+    width: calc(33.5% - var(--mMargin) / 2);
     margin-right: var(--mMargin);
 }
 
 .ligne:nth-child(3) > .photo:nth-child(2) {
-    flex: 2;
+    width: calc(66.5% - var(--mMargin) / 2);
     border-bottom-right-radius: var(--lRadius);
+}
+
+@media (max-width: 950px) {
+    .colonneTexte {
+        margin-right: var(--mMargin);
+        font-size: 16px;
+    }
+
+    .colonnePhotos {
+        flex: 2.5;
+        margin-left: var(--mMargin);
+    }
+
+    .photo {
+        height: 200px;
+    }
+
+    .colonneTexte > h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 750px) {
+    .presentation {
+        flex-direction: column;
+        text-align: center;
+        margin: var(--lMargin);
+        width: calc(100% - 2 * var(--lMargin));
+    }
+
+    .colonneTexte {
+        margin-bottom: var(--lMargin);
+        max-width: 500px;
+        font-size: 14px;
+        flex: none;
+        margin-right: 0;
+    }
+
+    .colonnePhotos {
+        flex: none;
+        width: calc(100% - var(--mMargin));
+        margin-left: 0;
+    }
 }

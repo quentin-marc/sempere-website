@@ -21,3 +21,22 @@
     font-weight: 400;
     letter-spacing: 2px;
 }
+
+@media (max-width: 750px) {
+    .containerDomaines {
+        width: calc(100% - 2 * var(--lMargin));
+        padding: var(--lMargin);
+        margin: var(--mMargin) auto;
+    }
+    .containerDomaines > h2 {
+        font-size: 28px;
+        width: 100%;
+        line-height: 1.5em;
+    }
+
+    .domaines {
+        display: flex;
+        flex-direction: column;
+        margin-top: var(--mMargin);
+    }
+}

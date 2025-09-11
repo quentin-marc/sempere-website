@@ -1,5 +1,5 @@
 .bandeauContainer {
-    width: 100%;
+    width: calc(100% - 2 * var(--mMargin));
     background-color: var(--bleu);
     padding: var(--mMargin);
 }
@@ -27,4 +27,38 @@
 .logos > img {
     height: 50px;
     margin: 0 var(--lMargin);
+}
+
+@media (max-width: 1150px) {
+    .texte {
+        font-size: 15px;
+    }
+
+    .logos > img {
+        margin: 0 var(--mMargin);
+    }
+}
+
+@media (max-width: 950px) {
+    .texte {
+        font-size: 14px;
+        width: 260px;
+    }
+}
+
+@media (max-width: 750px) {
+    .texte {
+        display: none;
+    }
+
+    .bandeau {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 550px) {
+    .logos > img {
+        height: 40px;
+    }
 }

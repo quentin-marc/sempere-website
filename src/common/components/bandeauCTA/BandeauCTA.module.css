@@ -12,3 +12,23 @@
     margin-left: -50px;
     font-size: 22px;
 }
+
+@media (max-width: 950px) {
+    .texte {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .bandeau {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .texte {
+        font-size: 16px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: var(--mMargin);
+    }
+}

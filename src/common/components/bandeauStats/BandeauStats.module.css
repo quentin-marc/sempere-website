@@ -1,5 +1,5 @@
 .bandeau {
-    width: 100%;
+    width: calc(100% - 2 * var(--lMargin));
     background-color: var(--bleu);
     display: flex;
     align-items: center;
@@ -12,12 +12,6 @@
     align-items: center;
     justify-content: space-evenly;
     width: var(--body);
-}
-
-.texte {
-    margin-right: var(--xlMargin);
-    margin-left: -50px;
-    font-size: 22px;
 }
 
 .metrique {
@@ -36,4 +30,29 @@
     font-size: 14px;
     font-weight: 200;
     line-height: 1.5em;
+}
+
+@media (max-width: 750px) {
+    .indicateur {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .bandeau {
+        width: calc(100% - 2 * var(--mMargin));
+        padding: var(--lMargin) var(--mMargin);
+    }
+    .indicateur {
+        font-size: 20px;
+    }
+
+    .label {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .metrique {
+        margin: 0 var(--sMargin);
+    }
 }

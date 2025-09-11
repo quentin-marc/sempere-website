@@ -58,3 +58,50 @@
     margin-left: var(--xlMargin);
     height: 600px;
 }
+
+@media (max-width: 950px) {
+    .colonneTexte {
+        flex: 2;
+        margin-right: var(--mMargin);
+        font-size: 16px;
+    }
+
+    .colonneTexte > h2 {
+        font-size: 28px;
+    }
+
+    .carte {
+        flex: 2;
+        margin-left: var(--mMargin);
+        height: 500px;
+    }
+
+    .iconContainer {
+        width: 45px;
+        height: 45px;
+    }
+
+    .iconContainer > * {
+        width: 20px;
+        height: 20px;
+    }
+
+    .titreContact {
+        margin-bottom: var(--xsMargin);
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        flex-direction: column;
+        width: calc(100% - 2 * var(--lMargin));
+        margin: var(--xlMargin) var(--lMargin);
+    }
+
+    .carte {
+        flex: none;
+        margin-left: 0;
+        margin-top: var(--lMargin);
+        height: 250px;
+    }
+}

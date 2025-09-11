@@ -63,3 +63,22 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.02);
     transition: 0.25s;
 }
+
+@media (max-width: 1150px) {
+    :root {
+        /* largeurs */
+        --bodyTight: 800px;
+    }
+}
+
+@media (max-width: 950px) {
+    :root {
+        /* largeurs */
+        --bodyTight: 680px;
+    }
+
+    button {
+        padding: var(--mMargin) 20px;
+        font-size: 14px;
+    }
+}

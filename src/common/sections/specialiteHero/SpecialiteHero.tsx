@@ -1,11 +1,12 @@
 import styles from "./SpecialiteHero.module.css";
 import { useTranslation } from "react-i18next";
-import heroImage from "../../../assets/TP.jpeg";
 import { useNavigate } from "react-router-dom";
 
 export default function SpecialiteHero({ type }: { type?: string }) {
     const { t } = useTranslation();
     const navigate = useNavigate();
+
+    console.log(type);
 
     return (
         <section className={styles.hero}>
@@ -23,6 +24,7 @@ export default function SpecialiteHero({ type }: { type?: string }) {
                                 navigate("/contact");
                                 window.scrollTo(0, 0);
                             }}
+                            className={styles.button}
                         >
                             {t("common.CTA")}
                         </button>
@@ -30,7 +32,9 @@ export default function SpecialiteHero({ type }: { type?: string }) {
                 </div>
                 <div
                     className={styles.image}
-                    style={{ backgroundImage: `url(${heroImage})` }}
+                    style={{
+                        backgroundImage: `url(/photosChantiers/${type}Principale.jpg)`,
+                    }}
                 ></div>
             </div>
         </section>

@@ -13,5 +13,22 @@
 .containerChantiers {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+@media (max-width: 750px) {
+    .exemplesChantiers {
+        width: 100%;
+        margin: var(--xlMargin) auto;
+    }
+
+    .exemplesChantiers > h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 550px) {
+    .containerChantiers > *:nth-child(n + 5) {
+        display: none;
+    }
 }
