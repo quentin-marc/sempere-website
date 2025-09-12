@@ -36,6 +36,14 @@
     color: var(--noir);
 }
 
+.menuMobile {
+    display: none;
+}
+
+.popIn {
+    display: none;
+}
+
 @media (max-width: 950px) {
     .navbar {
         font-size: 16px;
@@ -57,5 +65,49 @@
 
     .button {
         display: none;
+    }
+
+    .logo {
+        width: 100px;
+        position: relative;
+    }
+
+    .menuMobile {
+        display: block;
+        position: absolute;
+        right: var(--mMargin);
+        top: var(--mMargin);
+        z-index: 2;
+    }
+
+    .popIn {
+        display: block;
+        width: calc(100% - 2 * var(--mMargin));
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: #ffffffcc;
+        padding: var(--mMargin);
+    }
+
+    .navbarMobile {
+        background-color: var(--bleu);
+        box-shadow: var(--ombre);
+        border-radius: var(--mRadius);
+        width: 170px;
+        padding: var(--mMargin);
+        position: absolute;
+        top: 70px;
+        right: var(--mMargin);
+    }
+
+    .navbarMobile > * {
+        display: block;
+        text-align: right;
+        line-height: 2.5em;
+        color: black;
+        text-decoration: none;
     }
 }
