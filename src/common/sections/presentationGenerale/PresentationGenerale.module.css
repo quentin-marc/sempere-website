@@ -85,9 +85,10 @@
 @media (max-width: 750px) {
     .presentation {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
         margin: var(--lMargin);
         width: calc(100% - 2 * var(--lMargin));
+        display: block;
     }
 
     .colonneTexte {

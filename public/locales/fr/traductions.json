@@ -31,15 +31,7 @@
     "secteursIntervention": {
         "titre": "Nos secteurs d’intervention",
         "texte1": "Basée à Pia (banlieue Perpignan), notre équipe de 25 professionnels du BTP intervient dans tous les départements du Grand Sud :",
-        "departements": [
-            "Pyrénées Orientales (66)",
-            "Aude (11)",
-            "Hérault (34)",
-            "Gard (30)",
-            "Tarn (81)",
-            "Ariège (09)",
-            "Haute Garonne (31)"
-        ]
+        "autres": "autres"
     },
     "exemplesChnatiers": {
         "titre": "Quelques chantiers"
