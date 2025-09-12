@@ -4,10 +4,7 @@ import carteFrance from "../../../assets/carteFrance.svg";
 
 export default function PresentationGenerale() {
     const { t } = useTranslation();
-    // récupère le tableau des départements depuis i18n
-    const departements = t("secteursIntervention.departements", {
-        returnObjects: true,
-    }) as string[];
+
     return (
         <section className={styles.secteurs}>
             <div className={styles.colonneCarte}>
