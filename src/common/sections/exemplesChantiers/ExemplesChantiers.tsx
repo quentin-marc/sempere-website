@@ -35,11 +35,11 @@ export default function ExemplesChantiers({ type }: { type?: string }) {
             image: "TPSteMarie.jpg",
         },
         {
-            nom: "Tuyauterie piscine",
-            ville: "St Cyprien",
-            annee: "2023",
+            nom: "Tuyauterie lotissement",
+            ville: "Sorede",
+            annee: "???",
             type: "TP",
-            image: "TPpiscine.jpg",
+            image: "TPTuyauterie.jpg",
         },
         {
             nom: "Démolition Abattoirs",
