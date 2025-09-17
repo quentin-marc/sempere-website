@@ -26,8 +26,8 @@ export default function PresentationGenerale() {
                 <div className={styles.ligne}>
                     <img
                         className={styles.photo}
-                        src={`/photosChantiers/TPstMarie.jpg`}
-                        alt={`Photo d'ouvriers travaillant sur une réfection d'une avenue.`}
+                        src={`/photosChantiers/colioure.jpg`}
+                        alt={`Photo d'ouvriers en train de couler du béton à Colioure.`}
                     />
                     <img
                         className={styles.photo}

@@ -5,7 +5,7 @@
         "sousTexteCTA": "Besoin d’une intervention ?"
     },
     "footer": {
-        "copyright": "© Copyright 2025 Sempere & Fils",
+        "copyright": "© Copyright 2025 SEMPERE & Fils",
         "dev": "Développé par Quentin MARC",
         "expertises": "Travaux Publics, Désamiantage, Démolition."
     },
@@ -26,7 +26,7 @@
         "prestations": "Nos prestations",
         "texte1": "Nous intervenons pour vos travaux de terrassements, de VRD, d'aménagements paysagers, d'assainissement, d'ouvrages hydrauliques, de démolition.",
         "texte2": "Notre force : des <bold>outils modernes</bold> et un <bold>encadrement rigoureux</bold> pour garantir un service à la hauteur de vos exigences.",
-        "texte3": "<bold>Certifiée Qualibat depuis 13 ans</bold>, Sempere & fils vous offre l’assurance d’interventions sûres, conformes et reconnues par les plus hautes exigences du secteur."
+        "texte3": "<bold>Certifiée Qualibat depuis 13 ans</bold>, SEMPERE & fils vous offre l’assurance d’interventions sûres, conformes et reconnues par les plus hautes exigences du secteur."
     },
     "secteursIntervention": {
         "titre": "Nos secteurs d’intervention",
@@ -38,19 +38,19 @@
     },
     "heroTP": {
         "titre": "Travaux Publics",
-        "texte": "Sempere & Fils accompagne les collectivités, entreprises et particuliers dans la réalisation de leurs projets de Travaux Publics."
+        "texte": "SEMPERE & Fils accompagne les collectivités, entreprises et particuliers dans la réalisation de leurs projets de Travaux Publics."
     },
     "heroDesamiantage": {
         "titre": "Désamiantage",
-        "texte": "Sempere & Fils est certifiée Qualibat pour le traitement sécurisé de l’amiante grâce à des équipes qualifiées et du matériel moderne."
+        "texte": "SEMPERE & Fils est certifiée Qualibat pour le traitement sécurisé de l’amiante grâce à des équipes qualifiées et du matériel moderne."
     },
     "heroDemolition": {
         "titre": "Démolition",
-        "texte": "Sempere & Fils prend en charge tous types de démolitions, du bâtiment industriel aux ouvrages publics, dans le respect des normes de sécurité et environnementales."
+        "texte": "SEMPERE & Fils prend en charge tous types de démolitions, du bâtiment industriel aux ouvrages publics, dans le respect des normes de sécurité et environnementales."
     },
     "heroContact": {
         "titre": "Contactez-nous",
-        "texte": "Les équipes Sempere & Fils sont à votre disposition pour toute demande de devis ou d’informations.",
+        "texte": "Les équipes SEMPERE & Fils sont à votre disposition pour toute demande de devis ou d’informations.",
         "warning": "Merci de ne pas utiliser ces coordonnées à des fins de prospection."
     },
     "BandeauStats": {
@@ -92,7 +92,7 @@
             },
             {
                 "titre": "Infrastructures urbaines",
-                "texte": "Aménagement d’espaces publics, places, pistes cyclables et zones piétonnes."
+                "texte": "Aménagement d’espaces publics, places, pistes cyclables, mobilier urbain et zones piétonnes."
             },
             {
                 "titre": "Fondations et génie civil",
@@ -111,7 +111,7 @@
                 "texte": "Réalisation de murs, bordures et aménagements décoratifs."
             },
             {
-                "titre": "Dalage et revêtements extérieurs",
+                "titre": "Dallage et revêtements extérieurs",
                 "texte": "Mise en œuvre de surfaces résistantes pour parkings, zones piétonnes ou industrielles."
             },
             {
@@ -162,7 +162,7 @@
     },
     "coordonnees": {
         "titre": "Coordonnées",
-        "texte1": "Sempere & Fils est ouvert du lundi au vendredi sur les horaires suivants : ",
+        "texte1": "SEMPERE & Fils est ouvert du lundi au vendredi sur les horaires suivants : ",
         "puces": {
             "matin": "matin : 8h - 12h",
             "aprem": "après-midi : 14h - 18h"

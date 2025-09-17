@@ -28,11 +28,18 @@ export default function ExemplesChantiers({ type }: { type?: string }) {
             image: "amianteAsso.jpg",
         },
         {
-            nom: "Aménagement avenue",
+            nom: "Pose mobilier urbain",
             ville: "Ste Marie de la mer",
             annee: "2024",
             type: "TP",
-            image: "TPstMarie.jpg",
+            image: "TPSteMarie.jpg",
+        },
+        {
+            nom: "Tuyauterie piscine",
+            ville: "St Cyprien",
+            annee: "2023",
+            type: "TP",
+            image: "TPpiscine.jpg",
         },
         {
             nom: "Démolition Abattoirs",
@@ -40,13 +47,6 @@ export default function ExemplesChantiers({ type }: { type?: string }) {
             annee: "2024",
             type: "Demolition",
             image: "demolAbattoirs.jpg",
-        },
-        {
-            nom: "Préparation terrain",
-            ville: "Port Vendres",
-            annee: "2023",
-            type: "TP",
-            image: "TPPrepaTerrain.jpg",
         },
         {
             nom: "Désamiantage Auchan",
